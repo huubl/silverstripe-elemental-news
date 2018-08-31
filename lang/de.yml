@@ -1,0 +1,13 @@
+de:
+  ATW\ElementalNews\Models\News:
+    PLURALNAME: "News"
+    PLURALS:
+      one: 'Eine News'
+      other: '{count} News'
+    SINGULARNAME: "News"
+  ATW\ElementalNews\Models\NewsCategory:
+    PLURALNAME: "Newskategorien"
+    PLURALS:
+      one: 'Eine Newskategorie'
+      other: '{count} Newskategorien'
+    SINGULARNAME: "Newskategorie"
