@@ -11,3 +11,9 @@ de:
       one: 'Eine Newskategorie'
       other: '{count} Newskategorien'
     SINGULARNAME: "Newskategorie"
+  ATW\ElementalNews\Models\NewsArchive:
+    PLURALNAME: "Newsarchive"
+    PLURALS:
+      one: 'Ein Newsarchiv'
+      other: '{count} Newsarchive'
+    SINGULARNAME: "Newsarchiv"

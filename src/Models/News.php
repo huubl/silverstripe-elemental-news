@@ -80,6 +80,9 @@ class News extends DataObject {
     }
 
     public function GetLink() {
+        if($archive = NewsArchive::get()->first()) {
+            return $archive->Link("view/").$this->ID;
+        }
         //Link to NewsArchive
 //        if($category = $this->Category()) {
 //            return $category->Link("news/").$this->ID;

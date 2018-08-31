@@ -1,0 +1,9 @@
+---
+Name: silverstripe-elemental-news
+After: silverstripe-elemental-base
+---
+ATW\ElementalNews\Models\News:
+  extensions:
+  - DNADesign\Elemental\Extensions\ElementalPageExtension
+  disallowed_elements:
+    ATW\ElementalBase\Models\BaseElement
