@@ -1,4 +1,4 @@
-<section class="section section--news <% if $Variant %>$Variant<% end_if %>">
+<section class="section section--news $VariantClasses">
     <div class="section_content">
         <% if $ShowTitle %>
             <h2>$Title</h2>
