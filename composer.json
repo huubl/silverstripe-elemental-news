@@ -10,7 +10,6 @@
     }
   ],
   "require": {
-    "dnadesign/silverstripe-elemental": "^3.0",
-    "colymba/gridfield-bulk-editing-tools": "^3.0"
+    "dnadesign/silverstripe-elemental": "^4.0"
   }
 }
